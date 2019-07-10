@@ -1,6 +1,6 @@
 A,B=map(int,input().split())
 C=A-B
 if(C%2==0):
-	print("yes")
+	print("even")
 else:
-	print("no")
+	print("odd")
