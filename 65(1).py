@@ -1,0 +1,2 @@
+kalai=input()
+print(kalai)
