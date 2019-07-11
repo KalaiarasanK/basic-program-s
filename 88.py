@@ -1,7 +1,5 @@
-num1,num2=map(int,input().split()) 
-maximum=max(num1,num2)
-while(1):
-	if(maximum%num1==0 and maximum%num2==0):
-		print(maximum)
-		break
-maximum+=1
+import math
+k=list(map(int,input().split()))
+for i in k:
+	print(int((k[0]*k[1])/math.gcd(k[0],k[1])))
+	break
