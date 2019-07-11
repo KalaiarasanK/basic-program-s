@@ -4,6 +4,6 @@ for i in num:
 	if i not in num1:
 		num1.append(i)
 if num==num1:
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
